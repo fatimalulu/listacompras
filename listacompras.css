@@ -1,0 +1,135 @@
+*{
+  text-decoration: none;  
+  margin: 0px;   
+  padding: 0;
+  font-family:"Poppins";
+  box-sizing: border-box;
+}
+body{
+    text-decoration: none; 
+    display: flex;
+    min-height:100vh;
+    background-image: url('ash.jpg');
+    background-repeat: no-repeat; 
+     background-position: center center;
+    background-size: 110% 110%; /* Ancho y alto al 100% del contenedor */
+ background-size: 110px 110px; /* Ancho de 50 píxeles y alto de 50 píxeles */
+ background-size: 110% auto; /* Ancho al 100% y altura automática */
+
+}
+.r{
+    margin: 50px;
+    text-align: center;
+    color: black;
+}
+.d{
+    display: block;
+    margin-left: 80px;
+}
+/* Estilo para la barra de navegación */
+.navbar {
+    text-decoration: none;
+    font: Sans-serif;
+    height: 100px;
+    position: fixed; /* Establece la posición fija */
+  padding-top: 0px; /* Fija la barra en la parte superior */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+background-color:#CAA6A6;
+  padding: 50px 0; /* Espaciado interno */
+    font-size: 30px;
+  text-align: center; /* Alineación del texto al centro */
+}
+.dive{
+    text-decoration: none; 
+    text-decoration: none; 
+    background-color: #CAA6A6;
+}
+.div2{
+    text-decoration: none; 
+    margin: 60px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    min-height:100vh;
+    background-color:transparent;
+	width: 100%;
+	height: 1000px;
+}
+.lista{
+    text-decoration: none;
+   padding:  18px 80px 50px;
+   position: ;
+   background: #B47B84 ;
+    height: 60vh;
+}
+.lista h2{
+    color: #fff;
+    font-size: 30px;
+    padding:10px 0; 
+    margin-left: 10px;
+    display: inline-block;
+    border-bottom:4px solid #fff;
+    
+}
+.lista label{
+    position: relative;
+    display: block;
+    margin: 40px 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+.lista span{
+    position: relative;
+    left: 40px;
+    transition: 0.5seg;
+}
+.lista span;before{
+    content: "";
+    position: absolute;
+    top:  50px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #f4cfed;
+    transform: translateY(-50%) scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.lista input[type="checkbox"]:checked ~span:before{
+    transform: translateY(-50%) scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5;
+    display: block;
+    margin-left: 80px; 
+}
+.lista input[type="checkbox"]:checked~ span{
+    color: #154e6b;
+     display: block;
+    margin-left: 80px;
+      }
+
+.lista {
+    text-align: center;
+}
+
+.lista label {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.lista img {
+    width: 100px; /* Puedes ajustar el tamaño de la imagen según tus preferencias */
+    height: auto; /* Para mantener la proporción de la imagen */
+    display: block;
+    margin-bottom: 51px; /* Espacio entre la imagen y el texto */
+}
+.lista h2 {
+    margin-top: 0; /* Elimina el margen superior del encabezado */
+}
+
+
+
+
+
+
+
